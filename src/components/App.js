@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/App.css';
 
 const App = () => {
-  const [names, setNames] = useState(['brice', 'cedric', 'jo', 'jeremy', 'gael', 'larry', 'louis', 'matthew']);
+  const [names] = useState(['brice', 'cedric', 'jo', 'jeremy', 'gael', 'larry', 'louis', 'matthew']);
   const [filteredNames, setFilteredNames] = useState([...names]);
   const [inputName, setInputName] = useState('');
   const [showCarousel, setShowCarousel] = useState(false);
